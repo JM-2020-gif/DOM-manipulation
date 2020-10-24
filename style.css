@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 610px;
+    height: 610px;
+    background-color:black;
+}
+
+.grid div { /*document.querySelectorAll('.grid div') fine in JS file*/
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.playerX {
+    background-image: url('cross.png')
+}
+
+.playerO {
+    background-image: url('circle.png')
+}
+
+.playerX-O{
+    width: 80%;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+}
+
+/*https://www.youtube.com/watch?v=2UR8gSnRU28*/
+
+/*Good luck!*/
